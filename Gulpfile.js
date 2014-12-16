@@ -1,10 +1,12 @@
 var gulp               = require( 'gulp' ),
     connect            = require( 'gulp-connect' ),
-    historyApiFallback = require( 'connect-history-api-fallback' );
-var stylus = require( 'gulp-stylus' ),
-    nib    = require( 'nib' );
-var jshint  = require( 'gulp-jshint' ),
-    stylish = require( 'jshint-stylish' );
+    historyApiFallback = require( 'connect-history-api-fallback' ),
+    jshint             = require( 'gulp-jshint' ),
+    less               = require( 'gulp-less' ),
+    nib                = require( 'nib' ),
+    path               = require( 'path' ),
+    stylish            = require( 'jshint-stylish' ),
+    stylus             = require( 'gulp-stylus' );
 
 // Servidor web de desarrollo
 gulp.task( 'server', function() {
@@ -17,6 +19,15 @@ gulp.task( 'server', function() {
             return [ historyApiFallback ];
         }
     });
+});
+// Compila less
+gulp.task( 'less', function(){
+    gulp.src('./app/less/**/*.less')
+    .pipe(less({
+      paths: [ path.join(__dirname, 'less', 'includes') ]
+    }))
+    .pipe(gulp.dest('./app/css'))
+    .pipe( connect.reload() );
 });
 // Preprocesa archivos Stylus a CSS y recarga los cambios
 gulp.task( 'css', function() {
@@ -35,12 +46,14 @@ gulp.task( 'html', function() {
 gulp.task( 'watch', function() {
     gulp.watch( [ './app/**/*.html' ], [ 'html' ] );
     gulp.watch( [ './app/stylesheets/**/*.styl' ], [ 'css' ] );
+    gulp.watch( [ './app/**/*.less' ], [ 'less' ] );
 });
 
 // Busca errores en el JS y nos los muestra por pantalla
 gulp.task( 'jshint', function() {
     return gulp.src( './app/scripts/*/.js' )
-    .pipe(jshint('.jshintrc')) .pipe(jshint.reporter('jshint-stylish')) .pipe(jshint.reporter('fail')); });
-//
-gulp.task( 'default', [ 'server', 'watch', 'html', 'css' ] );
+    .pipe(jshint('.jshintrc')) .pipe(jshint.reporter('jshint-stylish')) .pipe(jshint.reporter('fail'));
+});
+
+gulp.task( 'default', [ 'server', 'watch', 'html', 'css', 'less' ] );
 

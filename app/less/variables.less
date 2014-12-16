@@ -5,11 +5,11 @@
 /* the second font in our template*/
 @font2: 'Lato', sans-serif;
 
-/* default color skin */
-@skin-color: #afd65a;
+/* default color skin  #afd65a  475c87 */
+@skin-color: #475c87;
 
-/* text color 1 (some titles)*/
-@color1: #434343; 
+/* text color 1 (some titles) #434343*/
+@color1: #222840;
 
 /* text color 2 (some text paragraphcs)*/
 @color2: #888888;
@@ -62,7 +62,7 @@
 }
 
 /* variable for radius corners*/
-.radius(@radius) { 
+.radius(@radius) {
     -webkit-border-radius: @radius;
     -moz-border-radius: @radius;
     -o-border-radius: @radius;
@@ -70,7 +70,7 @@
 }
 
 /* variable for radius corners*/
-.radius-bottom-left(@radius) { 
+.radius-bottom-left(@radius) {
     -webkit-border-bottom-left-radius: @radius;
     -moz-border-bottom-left-radius: @radius;
     -o-border-bottom-left-radius: @radius;
@@ -78,7 +78,7 @@
 }
 
 /* variable for radius corners*/
-.radius-bottom-right(@radius) { 
+.radius-bottom-right(@radius) {
     -webkit-border-bottom-right-radius: @radius;
     -moz-border-bottom-right-radius: @radius;
     -o-border-bottom-right-radius: @radius;
@@ -94,7 +94,7 @@
 }
 
 /* variable for radius corners*/
-.radius-top-right(@radius) { 
+.radius-top-right(@radius) {
     -webkit-border-top-right-radius: @radius;
     -moz-border-top-right-radius: @radius;
     -o-border-top-right-radius: @radius;
@@ -102,7 +102,7 @@
 }
 
 /* variable for transitions*/
-.transition { 
+.transition {
     transition: all 0.20s ease-in-out;
     -moz-transition: all 0.20s ease-in-out;
     -webkit-transition: all 0.20s ease-in-out;
@@ -110,7 +110,7 @@
 }
 
 /* variable for transitions*/
-.transition2 { 
+.transition2 {
     transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
@@ -118,7 +118,7 @@
 }
 
 /* variable for transitions*/
-.transition3 { 
+.transition3 {
     transition: all 0.6s ease-in-out;
     -moz-transition: all 0.6s ease-in-out;
     -webkit-transition: all 0.6s ease-in-out;
@@ -126,7 +126,7 @@
 }
 
 /* variable for tranform grow elem scale*/
-.grow-transform(@scale) { 
+.grow-transform(@scale) {
     transform: scale(@scale);
     -webkit-transform: scale(@scale);
     -moz-transform: scale(@scale);
@@ -171,22 +171,22 @@
 /* animate transform variable*/
 .animate-transform {
     @-webkit-keyframes hovertrans {
-        0% { .grow-transform(0); }    
+        0% { .grow-transform(0); }
         50% { .grow-transform(1.07); }
         100% { .grow-transform(1); }
     }
     @-moz-keyframes hovertrans {
-        0% { .grow-transform(0); }    
+        0% { .grow-transform(0); }
         50% { .grow-transform(1.07); }
         100% { .grow-transform(1); }
     }
     @-o-keyframes hovertrans {
-        0% { .grow-transform(0); }    
+        0% { .grow-transform(0); }
         50% { .grow-transform(1.07); }
         100% { .grow-transform(1); }
     }
     @keyframes hovertrans {
-        0% { .grow-transform(0); }    
+        0% { .grow-transform(0); }
         50% { .grow-transform(1.07); }
         100% { .grow-transform(1); }
     }
