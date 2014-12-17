@@ -6,7 +6,9 @@ var gulp               = require( 'gulp' ),
     nib                = require( 'nib' ),
     path               = require( 'path' ),
     stylish            = require( 'jshint-stylish' ),
-    stylus             = require( 'gulp-stylus' );
+    stylus             = require( 'gulp-stylus' ),
+    uglify             = require( 'gulp-uglify' ),
+    minifyCSS          = require( 'gulp-minify-css' );
 
 // Servidor web de desarrollo
 gulp.task( 'server', function() {
@@ -19,6 +21,23 @@ gulp.task( 'server', function() {
             return [ historyApiFallback ];
         }
     });
+});
+// Copia htmls a dist
+gulp.task( 'copy-html', function() {
+    gulp.src( './app/*.html' )
+    .pipe(gulp.dest( './dist/' ) );
+});
+// Minifica los CSS
+gulp.task( 'minify-css', function() {
+    gulp.src( './app/css/*.css' )
+    .pipe( minifyCSS( { keepBreaks: true } ) )
+    .pipe( gulp.dest( './dist/css/' ) )
+});
+// Minifica js
+gulp.task( 'compress', function() {
+  gulp.src( './app/js/*.js' )
+    .pipe( uglify() )
+    .pipe( gulp.dest( './dist/js/' ) )
 });
 // Compila less
 gulp.task( 'less', function(){
@@ -55,5 +74,5 @@ gulp.task( 'jshint', function() {
     .pipe(jshint('.jshintrc')) .pipe(jshint.reporter('jshint-stylish')) .pipe(jshint.reporter('fail'));
 });
 
-gulp.task( 'default', [ 'server', 'watch', 'html', 'css', 'less' ] );
+gulp.task( 'default', [ 'server', 'watch', 'html', 'css', 'less', 'minify-css', 'compress', 'copy-html' ] );
 

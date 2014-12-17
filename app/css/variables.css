@@ -1,10 +1,21 @@
 /* the default font in our template*/
 /* the second font in our template*/
 /* default color skin  #afd65a  475c87 */
+/* default color skin  #afd65a  475c87 */
+/* default color skin  #afd65a  475c87 */
 /* text color 1 (some titles) #434343*/
 /* text color 2 (some text paragraphcs)*/
 /* white color*/
 /* black color*/
+.skin-color {
+  color: #475c87;
+}
+.second-color {
+  color: #799ce5;
+}
+.third-color {
+  color: #86aeff;
+}
 /* ul reset margin and padding*/
 .ul-reset {
   margin: 0;
