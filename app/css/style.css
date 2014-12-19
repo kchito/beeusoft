@@ -112,7 +112,7 @@ website:    http://www.themepunch.com
 /* white color*/
 /* black color*/
 .skin-color {
-  color: red;
+  color: #475c87;
 }
 .second-color {
   color: #799ce5;
@@ -386,7 +386,7 @@ website:    http://www.themepunch.com
   margin-right: 15px;
 }
 .navbar-default .header-top-line .right-align ul li a:hover {
-  color: red;
+  color: #475c87;
 }
 .navbar-default .header-top-line .right-align ul li .shoping-drop {
   visibility: hidden;
@@ -398,7 +398,7 @@ website:    http://www.themepunch.com
   right: 0;
   width: 290px;
   border: 1px solid #eeeeee;
-  border-top: 2px solid red;
+  border-top: 2px solid #475c87;
   background: #ffffff;
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -471,7 +471,7 @@ website:    http://www.themepunch.com
   margin-bottom: 0;
 }
 .navbar-default .header-top-line .right-align ul li .shoping-drop .items-area ul li div.items-cont p span {
-  color: red;
+  color: #475c87;
 }
 .navbar-default .header-top-line .right-align ul li .shoping-drop .total-price {
   text-align: right;
@@ -504,7 +504,7 @@ website:    http://www.themepunch.com
   margin: 0;
 }
 .navbar-default .header-top-line .right-align ul li .shoping-drop .continue-shop a:hover {
-  background: red;
+  background: #475c87;
   color: #ffffff;
 }
 .navbar-default .header-top-line .right-align ul li .shoping-drop .continue-shop a:first-child {
@@ -544,7 +544,7 @@ website:    http://www.themepunch.com
 }
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a.active {
-  color: red !important;
+  color: #475c87 !important;
 }
 .navbar-nav a.open-search {
   padding-right: 15px;
@@ -560,7 +560,7 @@ website:    http://www.themepunch.com
   -o-transition: all 0.2s ease-in-out;
 }
 .navbar-nav a.open-search:hover i {
-  color: red;
+  color: #475c87;
 }
 .navbar-nav li.drop {
   position: relative;
@@ -578,7 +578,7 @@ website:    http://www.themepunch.com
   text-align: left;
   padding: 12px 0;
   background: #ffffff;
-  border-top: 3px solid red;
+  border-top: 3px solid #475c87;
   box-shadow: 0 0 4px #bdbdbd;
   -webkit-box-shadow: 0 0 4px #bdbdbd;
   -moz-box-shadow: 0 0 4px #bdbdbd;
@@ -619,7 +619,7 @@ website:    http://www.themepunch.com
   float: right;
 }
 .navbar-nav li ul.drop-down li a:hover {
-  color: red;
+  color: #475c87;
 }
 .navbar-nav li ul.drop-down.right-side {
   left: inherit;
@@ -659,7 +659,7 @@ header.active .navbar-nav > li > a {
   text-align: left;
   padding: 25px;
   background: #ffffff;
-  border-top: 3px solid red;
+  border-top: 3px solid #475c87;
   box-shadow: 0 0 4px #bdbdbd;
   -webkit-box-shadow: 0 0 4px #bdbdbd;
   -moz-box-shadow: 0 0 4px #bdbdbd;
@@ -689,7 +689,7 @@ header.active .navbar-nav > li > a {
   margin: 0;
 }
 .megadrop-down .dropdown ul li a:hover {
-  color: red;
+  color: #475c87;
 }
 .megadrop-down .dropdown ul li:last-child {
   padding-bottom: 0;
@@ -802,11 +802,11 @@ li.megadrop:hover .megadrop-down {
 }
 .header3 .flags-section ul.language-choose > li a:hover,
 .header4 .flags-section ul.language-choose > li a:hover {
-  color: red;
+  color: #475c87;
 }
 .header3 .flags-section ul.language-choose > li a:hover span,
 .header4 .flags-section ul.language-choose > li a:hover span {
-  color: red;
+  color: #475c87;
 }
 .header3 .flags-section ul.language-choose > li ul.drop-languages,
 .header4 .flags-section ul.language-choose > li ul.drop-languages {
@@ -865,7 +865,7 @@ li.megadrop:hover .megadrop-down {
 }
 .header3 .flags-section ul.language-choose > li ul.drop-languages li a:hover,
 .header4 .flags-section ul.language-choose > li ul.drop-languages li a:hover {
-  color: red;
+  color: #475c87;
 }
 .header3 .flags-section ul.language-choose > li:hover ul.drop-languages,
 .header4 .flags-section ul.language-choose > li:hover ul.drop-languages {
@@ -934,7 +934,7 @@ li.megadrop:hover .megadrop-down {
 }
 .header3 .navbar-form input[type="text"]:focus,
 .header4 .navbar-form input[type="text"]:focus {
-  border: 1px solid red;
+  border: 1px solid #475c87;
 }
 .header3 .navbar-form button,
 .header4 .navbar-form button {
@@ -990,7 +990,7 @@ li.megadrop:hover .megadrop-down {
 }
 .header3 .right-align ul li a:hover,
 .header4 .right-align ul li a:hover {
-  color: red;
+  color: #475c87;
 }
 .header3 .right-align ul li .shoping-drop,
 .header4 .right-align ul li .shoping-drop {
@@ -1003,7 +1003,7 @@ li.megadrop:hover .megadrop-down {
   right: 0;
   width: 290px;
   border: 1px solid #eeeeee;
-  border-top: 2px solid red;
+  border-top: 2px solid #475c87;
   background: #ffffff;
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1087,7 +1087,7 @@ li.megadrop:hover .megadrop-down {
 }
 .header3 .right-align ul li .shoping-drop .items-area ul li div.items-cont p span,
 .header4 .right-align ul li .shoping-drop .items-area ul li div.items-cont p span {
-  color: red;
+  color: #475c87;
 }
 .header3 .right-align ul li .shoping-drop .total-price,
 .header4 .right-align ul li .shoping-drop .total-price {
@@ -1125,7 +1125,7 @@ li.megadrop:hover .megadrop-down {
 }
 .header3 .right-align ul li .shoping-drop .continue-shop a:hover,
 .header4 .right-align ul li .shoping-drop .continue-shop a:hover {
-  background: red;
+  background: #475c87;
   color: #ffffff;
 }
 .header3 .right-align ul li .shoping-drop .continue-shop a:first-child,
@@ -1189,7 +1189,7 @@ li.megadrop:hover .megadrop-down {
 .header4 .navbar-nav > li > a:hover,
 .header4 .navbar-nav > li > a.active {
   color: #ffffff !important;
-  background: red;
+  background: #475c87;
 }
 .blog-nav .navbar-header {
   float: none;
@@ -1396,7 +1396,7 @@ a.button-one {
   color: #ffffff;
   text-transform: uppercase;
   margin: 8px 0;
-  background: red;
+  background: #475c87;
 }
 a.button-one:hover {
   opacity: 0.7;
@@ -1642,7 +1642,7 @@ a.button-one:hover {
   background: #ffffff;
 }
 .portfolio-box .work-post .hover-box .inner-hover a:hover i {
-  color: red;
+  color: #475c87;
 }
 .portfolio-box .work-post:hover .hover-box {
   opacity: 1;
@@ -1735,7 +1735,7 @@ button.mfp-arrow {
 .owl-theme .owl-controls .owl-page.active span {
   width: 15px;
   height: 15px;
-  border: 1px solid red;
+  border: 1px solid #475c87;
   background: transparent;
   margin-bottom: 3px;
 }
@@ -1794,7 +1794,7 @@ button.mfp-arrow {
 /*-------------------------------------------------*/
 .page-banner-section2 {
   padding: 50px 0;
-  background: red;
+  background: #475c87;
 }
 .page-banner-section2 h1 {
   color: #222840;
@@ -1963,7 +1963,7 @@ button.mfp-arrow {
 }
 .blog-section .blog-box .blog-post .blog-gal .blog-hover a:hover {
   background: #ffffff;
-  color: red;
+  color: #475c87;
 }
 .blog-section .blog-box .blog-post h2 {
   color: #222840;
@@ -1984,7 +1984,7 @@ button.mfp-arrow {
   color: #222840;
 }
 .blog-section .blog-box .blog-post h2 a:hover {
-  color: red;
+  color: #475c87;
 }
 .blog-section .blog-box .blog-post ul.post-tags {
   margin: 0;
@@ -2017,7 +2017,7 @@ button.mfp-arrow {
   color: #333333;
 }
 .blog-section .blog-box .blog-post ul.post-tags li a:hover {
-  color: red;
+  color: #475c87;
 }
 .blog-section .blog-box .blog-post ul.post-tags li:before {
   content: '|';
@@ -2041,7 +2041,7 @@ button.mfp-arrow {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  color: red;
+  color: #475c87;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -2091,8 +2091,8 @@ ul.pagination-list li a {
 }
 ul.pagination-list li a:hover,
 ul.pagination-list li a.active {
-  border: 1px solid red;
-  background: red;
+  border: 1px solid #475c87;
+  background: #475c87;
   color: #ffffff;
 }
 /*-------------------------------------------------*/
@@ -2123,7 +2123,7 @@ ul.pagination-list li a.active {
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  background: red;
+  background: #475c87;
   padding-top: 15px;
   margin-bottom: 40px;
 }
@@ -2171,7 +2171,7 @@ ul.pagination-list li a.active {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  color: red;
+  color: #475c87;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -2213,7 +2213,7 @@ ul.pagination-list li a.active {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  color: red;
+  color: #475c87;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -2270,7 +2270,7 @@ ul.pagination-list li a.active {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  color: red;
+  color: #475c87;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -2307,7 +2307,7 @@ ul.pagination-list li a.active {
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  background: red;
+  background: #475c87;
   padding-top: 15px;
   text-align: center;
 }
@@ -2332,7 +2332,7 @@ ul.pagination-list li a.active {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  color: red;
+  color: #475c87;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -2433,7 +2433,7 @@ ul.pagination-list li a.active {
   border-top: 1px solid #dddddd;
 }
 .blog-section.blog-onlytitle .blog-box .blog-post:hover {
-  background: red;
+  background: #475c87;
 }
 .blog-section.blog-onlytitle .blog-box .blog-post:hover h2 a {
   color: #ffffff;
@@ -2495,7 +2495,7 @@ ul.pagination-list li a.active {
 }
 .blog-post.single-post .social-tag-post .single-post-tags ul li a:hover {
   color: #ffffff;
-  background: red;
+  background: #475c87;
 }
 .blog-post.single-post .social-tag-post .single-post-icons {
   text-align: right;
@@ -2528,7 +2528,7 @@ ul.pagination-list li a.active {
   font-size: 14px;
 }
 .blog-post.single-post .social-tag-post .single-post-icons ul li a:hover {
-  color: red;
+  color: #475c87;
 }
 .blog-post.single-post .social-tag-post .single-post-icons ul li:last-child {
   margin-right: 0;
@@ -2568,7 +2568,7 @@ ul.pagination-list li a.active {
   margin-left: 106px;
 }
 .blog-post.single-post .comment-section ul.comment-tree li .comment-box .comment-content h3 {
-  color: red;
+  color: #475c87;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   margin: 0 0 12px;
@@ -2593,7 +2593,7 @@ ul.pagination-list li a.active {
   color: #b8b8b8;
 }
 .blog-post.single-post .comment-section ul.comment-tree li .comment-box .comment-content a:hover {
-  color: red;
+  color: #475c87;
 }
 .blog-post.single-post #comment-form {
   padding-top: 10px;
@@ -2623,7 +2623,7 @@ ul.pagination-list li a.active {
 }
 .blog-post.single-post #comment-form input[type="text"]:focus,
 .blog-post.single-post #comment-form textarea:focus {
-  border: 1px solid red;
+  border: 1px solid #475c87;
 }
 .blog-post.single-post #comment-form textarea {
   height: 146px;
@@ -2632,7 +2632,7 @@ ul.pagination-list li a.active {
   padding: 12px 30px;
   outline: none;
   border: none;
-  background: red;
+  background: #475c87;
   color: #ffffff;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
@@ -2678,7 +2678,7 @@ ul.pagination-list li a.active {
   -o-transition: all 0.2s ease-in-out;
 }
 .search-widget input[type="search"]:focus {
-  border: 1px solid red;
+  border: 1px solid #475c87;
 }
 .search-widget button {
   background: #fff;
@@ -2728,7 +2728,7 @@ ul.pagination-list li a.active {
   color: #222840;
 }
 .recent-widget ul.recent-list li .side-content h2 a:hover {
-  color: red;
+  color: #475c87;
 }
 .recent-widget ul.recent-list li .side-content p {
   margin-bottom: 0;
@@ -2770,7 +2770,7 @@ ul.pagination-list li a.active {
 }
 .category-widget ul li a:hover,
 .category-widget ul li a:hover:before {
-  color: red;
+  color: #475c87;
 }
 .category-widget ul li:last-child {
   border-bottom: none;
@@ -2833,7 +2833,7 @@ ul.pagination-list li a.active {
   color: #222840;
 }
 .tweets-widget ul li p a {
-  color: red;
+  color: #475c87;
 }
 .tweets-widget ul li:before {
   position: absolute;
@@ -2868,7 +2868,7 @@ ul.pagination-list li a.active {
   border-radius: 50%;
   margin-top: -30px;
   margin-left: -30px;
-  background: red;
+  background: #475c87;
   text-align: center;
   line-height: 60px;
   font-size: 18px;
@@ -2898,7 +2898,7 @@ ul.pagination-list li a.active {
   margin: 0;
   width: 36px;
   height: 36px;
-  background: red;
+  background: #475c87;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
@@ -2960,8 +2960,8 @@ ul.pagination-list li a.active {
   -o-transition: all 0.2s ease-in-out;
 }
 .share-widget ul.share-list li a:hover {
-  background: red;
-  border: 1px solid red;
+  background: #475c87;
+  border: 1px solid #475c87;
 }
 .share-widget ul.share-list li a:hover i {
   color: #ffffff;
@@ -2996,7 +2996,7 @@ ul.pagination-list li a.active {
 }
 .products-widget ul li .prod-content span {
   display: inline-block;
-  color: red;
+  color: #475c87;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   margin: 0 0 2px;
@@ -3054,7 +3054,7 @@ ul.pagination-list li a.active {
   float: left;
 }
 .filter-widget a:hover {
-  background: red;
+  background: #475c87;
   color: #ffffff;
 }
 .noUi-target * {
@@ -3096,7 +3096,7 @@ ul.pagination-list li a.active {
 }
 .noUi-connect {
   background: Teal;
-  background: red;
+  background: #475c87;
 }
 .noUi-background {
   background: #fff;
@@ -3108,7 +3108,7 @@ ul.pagination-list li a.active {
   bottom: 0;
   z-index: 0;
   border-radius: inherit;
-  background: red;
+  background: #475c87;
 }
 .noUi-origin-upper {
   background: inherit !important;
@@ -3187,8 +3187,8 @@ ul.pagination-list li a.active {
 }
 .portfolio-page ul.filter li a:hover,
 .portfolio-page ul.filter li a.active {
-  border-color: red;
-  background: red;
+  border-color: #475c87;
+  background: #475c87;
   color: #ffffff;
 }
 .portfolio-page ul.filter li:first-child a {
@@ -3259,7 +3259,7 @@ ul.pagination-list li a.active {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  color: red;
+  color: #475c87;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -3400,7 +3400,7 @@ ul.pagination-list li a.active {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  color: red;
+  color: #475c87;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -3548,7 +3548,7 @@ a.next-link {
 }
 a.prev-link:hover,
 a.next-link:hover {
-  background: red;
+  background: #475c87;
   color: #ffffff;
 }
 .project-layout2 .project-content p {
@@ -3587,7 +3587,7 @@ a.next-link:hover {
 }
 .reply-box form.project-form input[type="text"]:focus,
 .reply-box form.project-form textarea:focus {
-  border: 1px solid red;
+  border: 1px solid #475c87;
 }
 .reply-box form.project-form textarea {
   height: 146px;
@@ -3596,7 +3596,7 @@ a.next-link:hover {
   padding: 12px 30px;
   outline: none;
   border: none;
-  background: red;
+  background: #475c87;
   color: #ffffff;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
@@ -3751,7 +3751,7 @@ a.next-link:hover {
   -o-transition: all 0.2s ease-in-out;
 }
 .contact-section ul.social-list li a:hover {
-  background: red;
+  background: #475c87;
   border: 1px solid transparent;
 }
 .contact-section ul.social-list li a:hover i {
@@ -3777,7 +3777,7 @@ a.next-link:hover {
 }
 #contact-form input[type="text"]:focus,
 #contact-form textarea:focus {
-  border: 1px solid red;
+  border: 1px solid #475c87;
 }
 #contact-form textarea {
   height: 146px;
@@ -3786,7 +3786,7 @@ a.next-link:hover {
   padding: 12px 30px;
   outline: none;
   border: none;
-  background: red;
+  background: #475c87;
   color: #ffffff;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
@@ -3808,7 +3808,7 @@ a.next-link:hover {
   color: #e74c3c;
 }
 #contact-form .message.success {
-  color: red;
+  color: #475c87;
 }
 #contact-form.contact-form2 input[type="text"],
 #contact-form.contact-form2 textarea {
@@ -3840,7 +3840,7 @@ a.next-link:hover {
   color: #ffffff;
   font-size: 30px;
   text-align: center;
-  background: red;
+  background: #475c87;
 }
 .information-section .info-box .info-post h2 {
   color: #222840;
@@ -3906,13 +3906,13 @@ a.next-link:hover {
 }
 .register-section input[type="text"]:focus,
 .register-section input[type="password"]:focus {
-  border: 1px solid red;
+  border: 1px solid #475c87;
 }
 .register-section input[type="submit"] {
   padding: 12px 30px;
   outline: none;
   border: none;
-  background: red;
+  background: #475c87;
   color: #ffffff;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
@@ -4006,7 +4006,7 @@ a.next-link:hover {
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  background: red;
+  background: #475c87;
   text-align: center;
 }
 .faqs-section .visitors-feedback .feed-post span i {
@@ -4037,7 +4037,7 @@ a.next-link:hover {
   font-weight: 400;
   line-height: 24px;
   margin: 0 0 15px;
-  color: red;
+  color: #475c87;
   margin: 0;
 }
 .faqs-section .visitors-feedback .feed-post .feed-content a i {
@@ -4095,7 +4095,7 @@ a.next-link:hover {
   font-size: 12px;
 }
 .page-banner-section ul li a:hover {
-  color: red;
+  color: #475c87;
 }
 .page-banner-section ul li:before {
   content: '\f105';
@@ -4144,7 +4144,7 @@ a.next-link:hover {
 }
 .services-box1 .services-post span i,
 .services-box2 .services-post span i {
-  color: red;
+  color: #475c87;
   font-size: 30px;
 }
 .services-box1 .services-post .services-content,
@@ -4182,7 +4182,7 @@ a.next-link:hover {
 }
 .services-box1 .services-post .services-content a:hover,
 .services-box2 .services-post .services-content a:hover {
-  color: red;
+  color: #475c87;
 }
 .services-box1.icon-distance .services-post span {
   margin-top: 20px;
@@ -4197,7 +4197,7 @@ a.next-link:hover {
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  background: red;
+  background: #475c87;
   text-align: center;
 }
 .services-box2 .services-post span i {
@@ -4232,7 +4232,7 @@ a.next-link:hover {
   -o-transition: all 0.2s ease-in-out;
 }
 .services-box3 .services-post span i {
-  color: red;
+  color: #475c87;
   font-size: 30px;
   line-height: 90px;
   transition: all 0.2s ease-in-out;
@@ -4251,7 +4251,7 @@ a.next-link:hover {
   margin-bottom: 0;
 }
 .services-box3 .services-post:hover span {
-  background: red;
+  background: #475c87;
 }
 .services-box3 .services-post:hover span i {
   color: #ffffff;
@@ -4307,7 +4307,7 @@ a.next-link:hover {
   color: #ffffff;
   text-transform: uppercase;
   margin: 8px 0;
-  background: red;
+  background: #475c87;
 }
 .pricing-box1 ul.pricing-table li a:hover {
   opacity: 0.7;
@@ -4328,7 +4328,7 @@ a.next-link:hover {
   line-height: 46px;
 }
 .pricing-box1 ul.pricing-table:hover li:first-child {
-  background: red;
+  background: #475c87;
 }
 .pricing-box1 ul.pricing-table:hover li:first-child h2 {
   color: #ffffff;
@@ -4403,7 +4403,7 @@ a.next-link:hover {
   background: #222840;
 }
 .pricing-box2 ul.pricing-table li a:hover {
-  background: red;
+  background: #475c87;
 }
 .pricing-box2 ul.pricing-table li:nth-child(2n+1) {
   background: #efefef;
@@ -4416,7 +4416,7 @@ a.next-link:hover {
   -o-transition: all 0.2s ease-in-out;
 }
 .pricing-box2 ul.pricing-table:hover li:first-child {
-  background: red;
+  background: #475c87;
 }
 .pricing-box2 ul.pricing-table:hover li:first-child h2 {
   color: #ffffff;
@@ -4430,7 +4430,7 @@ a.next-link:hover {
 .banner-text1-section {
   text-align: center;
   padding: 66px 0;
-  background: red;
+  background: #475c87;
 }
 .banner-text1-section h1 {
   color: #222840;
@@ -4458,7 +4458,7 @@ a.next-link:hover {
   color: #ffffff;
   text-transform: uppercase;
   margin: 8px 0;
-  background: red;
+  background: #475c87;
   border: 2px solid #ffffff;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -4468,7 +4468,7 @@ a.next-link:hover {
 }
 .banner-text1-section h1 a:hover {
   background: #ffffff;
-  color: red;
+  color: #475c87;
 }
 .banner-text1-section.shortcode-margin {
   margin-bottom: 54px;
@@ -4503,7 +4503,7 @@ a.next-link:hover {
   color: #ffffff;
   text-transform: uppercase;
   margin: 8px 0;
-  background: red;
+  background: #475c87;
   margin-left: 65px;
 }
 .banner-text2-section h1 a:hover {
@@ -4547,7 +4547,7 @@ blockquote.style-first {
 blockquote.style-first p {
   font-style: italic;
   padding-left: 14px;
-  border-left: 2px solid red;
+  border-left: 2px solid #475c87;
   margin: 0;
   color: #595959;
 }
@@ -4588,7 +4588,7 @@ blockquote.style-second p {
 }
 .testimonial-box1 .bx-wrapper .bx-pager.bx-default-pager a.active {
   background: transparent;
-  border: 1px solid red;
+  border: 1px solid #475c87;
   width: 15px;
   height: 15px;
   margin-bottom: 1px;
@@ -4633,7 +4633,7 @@ blockquote.style-second p {
 }
 .testimonial-box2 ul li span {
   display: inline-block;
-  color: red;
+  color: #475c87;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -4685,7 +4685,7 @@ blockquote.style-second p {
   font-weight: 400;
   margin: 0 0 18px;
   font-size: 60px;
-  color: red;
+  color: #475c87;
   margin-bottom: 0;
 }
 .statistic-box .statistic-post p {
@@ -4734,7 +4734,7 @@ blockquote.style-second p {
   font-weight: 400;
   line-height: 24px;
   margin: 0 0 15px;
-  color: red;
+  color: #475c87;
   margin-bottom: 17px;
 }
 .team-box1 .team-post .team-content p {
@@ -4902,7 +4902,7 @@ blockquote.style-second p {
 }
 .skills-box .skills-progress div.meter p {
   height: 100%;
-  background: red;
+  background: #475c87;
 }
 .steps-box {
   margin-bottom: 30px;
@@ -4964,8 +4964,8 @@ blockquote.style-second p {
   margin-left: 123px;
 }
 .steps-box div.step:hover {
-  background: red;
-  border: 1px solid red;
+  background: #475c87;
+  border: 1px solid #475c87;
 }
 .steps-box div.step:hover span {
   color: #ffffff;
@@ -5048,7 +5048,7 @@ blockquote.style-second p {
 }
 .accord-elem.active .accord-title h2 a,
 .toogle-elem.active .toogle-title h2 a {
-  background: red;
+  background: #475c87;
 }
 .accord-elem.active .accord-title h2 a:after,
 .toogle-elem.active .toogle-title h2 a:after {
@@ -5099,7 +5099,7 @@ ul.element-social-icons li a {
   line-height: 28px;
 }
 ul.element-social-icons li a:hover {
-  background: red;
+  background: #475c87;
   color: #ffffff;
   border: 1px solid transparent;
 }
@@ -5268,7 +5268,7 @@ ul.element-social-icons li a:hover {
   -o-transition: all 0.2s ease-in-out;
 }
 .shop-section .shop-box .shop-post .shop-gal a:hover {
-  background: red;
+  background: #475c87;
 }
 .shop-section .shop-box .shop-post .shop-gal a:hover i {
   color: #ffffff;
@@ -5293,7 +5293,7 @@ ul.element-social-icons li a:hover {
   font-weight: 400;
   line-height: 24px;
   margin: 0 0 15px;
-  color: red;
+  color: #475c87;
   font-size: 14px;
 }
 .shop-section .shop-box .shop-post > a {
@@ -5311,7 +5311,7 @@ ul.element-social-icons li a:hover {
 }
 .shop-section .shop-box .shop-post > a:hover {
   color: #ffffff;
-  background: red;
+  background: #475c87;
 }
 .shop-section .shop-box .shop-post:hover .shop-gal a {
   opacity: 1;
@@ -5366,7 +5366,7 @@ ul.element-social-icons li a:hover {
 }
 .thumbs-box ul li .prod-content span {
   display: inline-block;
-  color: red;
+  color: #475c87;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   margin: 0 0 2px;
@@ -5492,7 +5492,7 @@ ul.element-social-icons li a:hover {
 }
 .shop-section.list-page .shop-box .shop-post .shop-post-content > a:hover {
   color: #ffffff;
-  background: red;
+  background: #475c87;
 }
 /*-------------------------------------------------*/
 /* =  Product page
@@ -5547,7 +5547,7 @@ ul.element-social-icons li a:hover {
 }
 .product-section .product-section-box .product-details span {
   display: inline-block;
-  color: red;
+  color: #475c87;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   margin: 0 0 16px;
@@ -5581,7 +5581,7 @@ ul.element-social-icons li a:hover {
 .product-section .product-section-box .product-details ul.product-features li:before {
   content: '\f138';
   font-family: 'FontAwesome';
-  color: red;
+  color: #475c87;
   font-size: 13px;
   margin-right: 12px;
 }
@@ -5650,7 +5650,7 @@ ul.element-social-icons li a:hover {
   border-left: 1px solid #dedede !important;
 }
 .tab-box ul.nav-tabs li.active a {
-  color: red;
+  color: #475c87;
 }
 .tab-box .tab-content {
   border: 1px solid #dedede;
@@ -5717,7 +5717,7 @@ ul.element-social-icons li a:hover {
   min-width: 675px;
 }
 .shoping-section table.main-table tr td span {
-  color: red;
+  color: #475c87;
 }
 .shoping-section table.main-table tr td a {
   display: inline-block;
@@ -5801,7 +5801,7 @@ ul.element-social-icons li a:hover {
   margin: 0 0 15px;
 }
 .shoping-section .shoping-cart-buttons a:hover {
-  background: red;
+  background: #475c87;
   color: #ffffff;
 }
 .shoping-section .shoping-cart-buttons a.continue-shop {
@@ -5877,7 +5877,7 @@ ul.element-social-icons li a:hover {
   margin: 0 0 15px;
 }
 .shoping-section form.personal-cart-information a:hover {
-  background: red;
+  background: #475c87;
   color: #ffffff;
 }
 .shoping-section form.personal-cart-information ul.total-table {
@@ -5899,7 +5899,7 @@ ul.element-social-icons li a:hover {
   margin-top: 20px;
   float: right;
   color: #ffffff;
-  background: red;
+  background: #475c87;
 }
 .shoping-section form.personal-cart-information ul.total-table li a:hover {
   opacity: 0.7;
@@ -5917,7 +5917,7 @@ ul.element-social-icons li a:hover {
   text-transform: uppercase;
 }
 .shoping-section form.personal-cart-information ul.total-table li.total p span {
-  color: red;
+  color: #475c87;
 }
 /*-------------------------------------------------*/
 /* =  Register popup
@@ -5993,7 +5993,7 @@ ul.element-social-icons li a:hover {
 }
 .some-element form .inner-form input[type="text"]:focus,
 .some-element form .inner-form input[type="password"]:focus {
-  border: 1px solid red;
+  border: 1px solid #475c87;
 }
 /*-------------------------------------------------*/
 /* =  footer
@@ -6651,7 +6651,7 @@ footer .up-footer .flickr-widget ul li a:hover {
   .header3 .navbar-nav > li > a.active,
   .header4 .navbar-nav > li > a.active {
     background: transparent;
-    color: red !important;
+    color: #475c87 !important;
   }
   .header4 .navbar-collapse {
     background: transparent;
