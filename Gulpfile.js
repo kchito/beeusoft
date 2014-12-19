@@ -11,9 +11,7 @@ var gulp               = require( 'gulp' ),
     minifyCSS          = require( 'gulp-minify-css' ),
     combineCSS         = require( 'combine-css' );
 
-
-
-gulp.task( 'combine', function() {
+/*gulp.task( 'combine', function() {
     gulp.src( './app/css/*.css' )
         .pipe( combineCSS( {
             lengthLimit   : 256,//2KB
@@ -21,7 +19,7 @@ gulp.task( 'combine', function() {
             selectorLimit : 4080
         }))
         .pipe(gulp.dest( './app/combinedCSS' ) );
-});
+});*/
 // Servidor web de desarrollo
 gulp.task( 'server', function() {
     connect.server({
@@ -35,22 +33,22 @@ gulp.task( 'server', function() {
     });
 });
 // Copia htmls a dist
-gulp.task( 'copy-html', function() {
+/*gulp.task( 'copy-html', function() {
     gulp.src( './app/*.html' )
     .pipe(gulp.dest( './dist/' ) );
-});
+});*/
 // Minifica los CSS
-gulp.task( 'minify-css', function() {
+/*gulp.task( 'minify-css', function() {
     gulp.src( './app/css/*.css' )
     .pipe( minifyCSS( { keepBreaks: true } ) )
     .pipe( gulp.dest( './dist/css/' ) )
-});
+});*/
 // Minifica js
-gulp.task( 'compress', function() {
+/*gulp.task( 'compress', function() {
   gulp.src( './app/js/*.js' )
     .pipe( uglify() )
     .pipe( gulp.dest( './dist/js/' ) )
-});
+});*/
 // Compila less
 gulp.task( 'less', function(){
     gulp.src('./app/less/**/*.less')
@@ -78,14 +76,15 @@ gulp.task( 'watch', function() {
     gulp.watch( [ './app/**/*.html' ], [ 'html' ] );
     gulp.watch( [ './app/stylesheets/**/*.styl' ], [ 'css' ] );
     gulp.watch( [ './app/**/*.less' ], [ 'less' ] );
-    gulp.watch( [ './app/css/*.css' ], [ 'combine' ]);
+//    gulp.watch( [ './app/css/*.css' ], [ 'combine' ]);
 });
 
 // Busca errores en el JS y nos los muestra por pantalla
+
 gulp.task( 'jshint', function() {
     return gulp.src( './app/scripts/*/.js' )
     .pipe(jshint('.jshintrc')) .pipe(jshint.reporter('jshint-stylish')) .pipe(jshint.reporter('fail'));
 });
 
-gulp.task( 'default', [ 'server', 'watch', 'html', 'css', 'less', 'minify-css', 'compress', 'copy-html', 'combine' ] );
+gulp.task( 'default', [ 'server', 'watch', 'html', 'css', 'less' ] );
 
