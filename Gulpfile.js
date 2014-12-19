@@ -8,8 +8,20 @@ var gulp               = require( 'gulp' ),
     stylish            = require( 'jshint-stylish' ),
     stylus             = require( 'gulp-stylus' ),
     uglify             = require( 'gulp-uglify' ),
-    minifyCSS          = require( 'gulp-minify-css' );
+    minifyCSS          = require( 'gulp-minify-css' ),
+    combineCSS         = require( 'combine-css' );
 
+
+
+gulp.task( 'combine', function() {
+    gulp.src( './app/css/*.css' )
+        .pipe( combineCSS( {
+            lengthLimit   : 256,//2KB
+            prefix        : '_m-',
+            selectorLimit : 4080
+        }))
+        .pipe(gulp.dest( './app/combinedCSS' ) );
+});
 // Servidor web de desarrollo
 gulp.task( 'server', function() {
     connect.server({
@@ -66,6 +78,7 @@ gulp.task( 'watch', function() {
     gulp.watch( [ './app/**/*.html' ], [ 'html' ] );
     gulp.watch( [ './app/stylesheets/**/*.styl' ], [ 'css' ] );
     gulp.watch( [ './app/**/*.less' ], [ 'less' ] );
+    gulp.watch( [ './app/css/*.css' ], [ 'combine' ]);
 });
 
 // Busca errores en el JS y nos los muestra por pantalla
@@ -74,5 +87,5 @@ gulp.task( 'jshint', function() {
     .pipe(jshint('.jshintrc')) .pipe(jshint.reporter('jshint-stylish')) .pipe(jshint.reporter('fail'));
 });
 
-gulp.task( 'default', [ 'server', 'watch', 'html', 'css', 'less', 'minify-css', 'compress', 'copy-html' ] );
+gulp.task( 'default', [ 'server', 'watch', 'html', 'css', 'less', 'minify-css', 'compress', 'copy-html', 'combine' ] );
 
